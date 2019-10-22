@@ -10,10 +10,7 @@
     $(function() {
         $('#getupdate').on('click', function() {
             var upw = window.open();
-            $.get('{:U('
-                index ', array('
-                action ' => '
-                getupdate '))}',
+            $.get("{:U('index', array('action'=>'getupdate'))}",
                 function(data) {
                     if (data) {
                         if (confirm('检测到新版本，是否进入下载页面？') == true) {
