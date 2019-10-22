@@ -572,7 +572,7 @@ public function spider()
 	if ($xzv_115 == 'clearall') {
 		$xzv_15 = 'TRUNCATE `'.C('DB_PREFIX').'spiderlogs`';
 		M()->execute($xzv_15);
-		$this->success('蜘蛛历史记录已清空！', 'Spider');
+		$this->success('蜘蛛历史记录已清空！', U('spider'));
 	}
 	else {
 		$xzv_32 = I('param.domain');
