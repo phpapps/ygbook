@@ -333,8 +333,8 @@ function pagelist($mode, $now = 1, $perpage = 2, $totalpage = 100, $dir = NULL, 
 				$pageurl = str_replace("{page}", $k, $k == 1 ? $pagerule_index : $pagerule);
 				$pagehtml .= "<li" . ($k == $now ? " class=\"" . $currentclass . "\"" : "") . "><a href=\"" . $pageurl . "\" target=\"_self\">" . $k . "</a></li>";
 				$k = $k + 1;
-				$i = $i + 1;
 			}
+			$i = $i + 1;
 		}
 	}
 	if (strpos($extra, "next") > 0 - 1 && $now < $totalpage) {
