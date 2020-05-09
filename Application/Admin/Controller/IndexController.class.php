@@ -9,11 +9,11 @@ class IndexController extends AdminController
     {
         $xzv_134 = file_get_contents(CONF_PATH . 'ver.txt');
         if (I('action') == 'getupdate') {
-            $xzv_57 = file_get_contents('http://vip.0rg.pw/version/' . NOW_TIME);
-            $xzv_88 = json_decode($xzv_57, true);
-            $xzv_86 = $xzv_88['ver'];
+            $xzv_57 = file_get_contents('https://github.com/phpapps/ygbook/releases');
+            preg_match('/\/ygbook\/releases\/tag\/(v{0,}[\d\.]+)/i', $xzv_57, $matche);
+            $xzv_86 = $matche[1];
             if ($xzv_86 && $xzv_86 != $xzv_134) {
-                echo htmlspecialchars_trans($xzv_88['url'], 'pick') . '#from=' . $xzv_86 . '&to=' . $xzv_134;
+                echo htmlspecialchars_trans('https://github.com/phpapps/ygbook/releases/tag/'. $xzv_86);
                 die;
             } else {
                 die;
