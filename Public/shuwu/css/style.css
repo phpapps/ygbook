@@ -1,17 +1,17 @@
 html,body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,table,td,th,img,div,dl,dt,dd,input,select,form,fieldset{margin:auto;padding:0;}
-body{background-color:#E9FAFF;color:#555;font-family:Arial,'Microsoft YaHei','\5B8B\4F53';font-size:14px;margin:0 auto;}
+body{background-color:#E9FAFF;color:#555;font-family:Arial,'Microsoft YaHei','\5B8B\4F53';font-size:13px;margin:0 auto;}
 ul li{list-style:none outside none;}
 a{color:#6F78A7;text-decoration:none;}
 a:hover {text-decoration:underline; top:-1px;}
 .clear{clear:both;}
 .header_logo a,.ywtop_sethome,.ywtop_addfavorite,.frii .int,.reader_mark0 a,.reader_mark1 a,#fmimg span{background:url(../images/all.gif) no-repeat scroll 0 0 transparent;}
-.ywtop{background-color:#E1ECED;border-bottom:1px solid #A6D3E8;color:gray;min-width:950px;width:100%;}
-.ywtop_con{width:980px;margin:0 auto; padding: 5px 0;  overflow: hidden;}
+.ywtop{background-color:#ebf3f7;border-bottom:1px solid #A6D3E8;color:gray;min-width:950px;width:100%;font-size:12px;}
+.ywtop_con{width:1180px;margin:0 auto; padding: 5px 0;  overflow: hidden;}
 .ywtop_sethome{background-position:0 4px;display:inline;float:left;margin-right:20px;text-indent: 22px;}
 .ywtop a{color:gray;}
 .ywtop_addfavorite{background-position:0 -17px;display:inline;float:left;margin-right:20px;text-indent: 22px;}
 .ywtop_addtext{float:left;margin-right:20px;}
-.nri{float:right;font-size:13px;}
+.nri{float:right;}
 .nri .cc{float:left;overflow:hidden;width:155px;}
 .cc .txt{color:gray;float:left;text-align:right;}
 .cc .inp{float:left;padding-top:3px;width:90px;}
@@ -21,47 +21,47 @@ a:hover {text-decoration:underline; top:-1px;}
 .nri .ccc{float:left;overflow:hidden;padding-left:10px;}
 .ccc .txtt{color:gray;float:left;padding-left:10px;}
 .txtt a,.txtt a:hover{color:gray;text-decoration:none;}
-.header{height:61px;width:980px;margin:15px auto;}
+.header{height:61px;width:1180px;margin:15px auto;}
 .header_logo a{background-position:0 -35px;display:block;float:left;height:60px;text-indent:-9999px;width:250px;}
 .header_search{float:left;width:450px;margin:20px auto auto 30px; }
-.header_search input.search{border:1px solid #A6D3E8;font:14px/22px arial;height:24px;margin-right:5px;width:320px;padding:3px;}
+.header_search input.search{border:1px solid #A6D3E8;font:13px/22px arial;height:24px;margin-right:5px;width:320px;padding:3px;}
 .header_search button{background:none repeat scroll 0 0 #DDD;cursor:pointer;font-size:14px;height:32px;width:95px;}
 #xx_search{ overflow:hidden;width:525px;margin:auto; }
 #xx_search input.search{border:1px solid #A6D3E8;font:14px/22px arial;height:24px;margin-right:5px;width:390px;padding:3px;}
 #xx_search button{background:none repeat scroll 0 0 #DDD;cursor:pointer;font-size:14px;height:32px;width:95px;}
 .userpanel{border:1px dotted #88C6E5;color:#9E9E9E;float:right;text-align:center;width:220px;padding:15px 3px;}
 .userpanel a{color:#9E9E9E;line-height:200%;}
-.nav{background:none repeat scroll 0 0 #88C6E5;height:46px;overflow:hidden;width:980px;margin:10px auto auto;}
+.nav{background:#3da5d9;height:46px;overflow:hidden;width:1180px;margin:10px auto auto;}
 .nav ul li{float:left;line-height:46px;}
-.nav ul li a{color:#FFF;font-size:16px;font-weight:700;padding:0 12px;}
-#admin{ border:solid 2px #E1ECED; height:30px; line-height:30px; width:88%; text-align:center; margin:5px; padding:3px;}
-table.grid caption, .gridtop { background-color:#E1ECED; border:solid 2px #C3DFEA;border-bottom:0px; font-size: 14px; font-weight: bold; margin: auto; padding-bottom: 5px; padding-top: 5px; text-align: center; vertical-align: middle;}
+.nav ul li a{color:#FFF;font-size:15px;font-weight:700;padding:0 12px;}
+#admin{ border:solid 2px #ebf3f7; height:30px; line-height:30px; width:88%; text-align:center; margin:5px; padding:3px;}
+table.grid caption, .gridtop { background-color:#ebf3f7; border:solid 2px #C3DFEA;border-bottom:0px; font-size: 14px; font-weight: bold; margin: auto; padding-bottom: 5px; padding-top: 5px; text-align: center; vertical-align: middle;}
 table.grid { border: 2px solid #C3DFEA; border-collapse: collapse; margin: auto; padding: 3px;}
 table.grid td { background-color: #FFFFFF !important; border: 1px solid #C3DFEA; padding: 4px;}
 .hottext{color:red;}
 .MessageDiv {background: #FFF9D9; border: 1px solid #FFCC33; line-height: 150%; width:800px; margin: 10px auto auto; padding: 10px;text-align:center;}
-#main{width:980px;margin:auto;}
+#main{width:1180px;margin:auto;}
 #hotcontent{padding-top:10px;}
-#hotcontent .l{background:none repeat scroll 0 0 #FEF9EF;border:3px solid #C3DFEA;float:left;height:510px;overflow:hidden;width:695px;padding:0 0 10px;}
-#hotcontent .l .item{float:left;width:335px;height:157px;padding:14px 0 0 10px;}
+#hotcontent .l{background:#FFF;border:3px solid #A6D3E8;float:left;height:510px;overflow:hidden;width:845px;padding:0 0 10px;}
+#hotcontent .l .item{float:left;width:286px;height:157px;padding:14px 0 0 10px;}
 #hotcontent .l .item dl dt{border-bottom:1px dotted #A6D3E8;font-size:14px;font-weight:700;height:25px;line-height:25px;overflow:hidden;}
 #hotcontent .l .item dl dt span{color:#B3B3B3;float:right;font-weight:400;}
 #hotcontent .l .item dl dd{height:120px;line-height:20px;overflow:hidden;text-indent:2em;padding:7px 0 0;}
-#hotcontent .l .item dl{float:right;width:190px;padding:0 5px 0 0;}
-#hotcontent .l .item .image{float:left;width:120px;}
-#hotcontent .l .item .image img{background-color:#FFF;border:1px solid #DDD;padding:1px;}
+#hotcontent .l .item dl{float:right;width:160px;padding:0 5px 0 0;}
+#hotcontent .l .item .image{float:left;width:110px;border:1px solid #DDD; overflow: hidden;}
+#hotcontent .l .item .image img{background-color:#FFF; width: 100%; vertical-align: bottom;}
 
-#hotcontent .ll{ border:3px solid #C8D4E1; margin: 10px auto; padding:5px;  float:left; width:964px; height:320px; overflow:hidden;}
-#hotcontent .ll .item{ width:315px; float:left; padding:5px 0px 0px 5px;}
-#hotcontent .ll .item .image{ float:left; width:120px;}
-#hotcontent .ll .item .image img{ border:solid 1px #DDDDDD; padding:1px; background-color:White;}
-#hotcontent .ll .item dl{ padding:0px 5px 0px 0px; float:right; width:180px;}
+#hotcontent .ll{background:#FFF;border:3px solid #88C6E5; margin: 10px auto; padding:5px;  float:left; width:1164px; height:330px; overflow:hidden;}
+#hotcontent .ll .item{ width:286px; float:left; padding:5px 0px 5px 5px;}
+#hotcontent .ll .item .image{ float:left; width:110px;border:solid 1px #DDDDDD;}
+#hotcontent .ll .item .image img{ width:100%;  background-color:White;vertical-align: bottom;}
+#hotcontent .ll .item dl{ padding:0px 5px 0px 0px; float:right; width:160px;}
 #hotcontent .ll .item dl dt{ height:25px; line-height:25px; overflow:hidden; font-size:14px; border-bottom:dotted 1px #6191D0; font-weight:bold; }
 #hotcontent .ll .item dl dt span{ float:right; font-weight:normal;}
 #hotcontent .ll .item dl dd{ padding:7px 0px 0px 0px; line-height:20px; color:#9E9E9E; text-indent:2em; height:120px; overflow:hidden;}
 
-#hotcontent .r{border:3px solid #C3DFEA;float:right;width:265px; height: 520px; background:#FEF9EF;}
-#hotcontent h2{background-color:#E1ECED;border-bottom:1px solid #DDD;font-size:14px;font-weight:700;height:40px;line-height:40px;overflow:hidden;margin:0;padding:0 0 0 15px;}
+#hotcontent .r{border:3px solid #A6D3E8;float:right;width:315px; height: 520px; background:#FFF;}
+#hotcontent h2{background-color:#ebf3f7;border-bottom:1px solid #DDD;font-size:14px;font-weight:700;height:40px;line-height:40px;overflow:hidden;margin:0;padding:0 0 0 15px;}
 #flash{height:308px;overflow:hidden;}
 #hotcontent .r ul {padding: 1px 10px;}
 #hotcontent .r li {border-bottom: 1px solid #DDDDDD;height: 28px;line-height: 28px;overflow: hidden;padding: 5px 0 0;}
@@ -72,19 +72,20 @@ table.grid td { background-color: #FFFFFF !important; border: 1px solid #C3DFEA;
 #hotcontent .r li .s4 {color: #B3B3B3;width: 50px;}
 #hotcontent .r li .s5 {float: right; text-align: right;}
 #hotcontent .r li a {color: #6F78A7;}
-.novelslist{ margin: 10px auto; border:3px solid #A6D3E8; width:968px;  padding:3px; background:#FEF9EF;}
-.novelslist .content{ border-right:dotted 1px #A6D3E8; padding:0px 3px; float:left; width:316px;}
-.novelslist .content h2{ border-bottom:solid 1px #A6D3E8; font-size:14px; font-weight:bold; padding-left:10px; line-height:32px; height:32px; overflow:hidden; margin: 0;}
+.novelslist{ margin: 10px auto; border:3px solid #A6D3E8; width:1168px;  padding:3px; background:#FFF;}
+.novelslist .content{ border-right:dotted 1px #A6D3E8; padding:0px 3px; float:left; width:382px;}
+.novelslist .content h2{ font-size:14px; font-weight:bold; padding-left:10px; line-height:32px; height:32px; overflow:hidden; margin: 0;}
+.novelslist .content h2 a{ color: #555;}
 .novelslist .content .image{ padding:10px 0px 0px 5px; float:left; width:71px;}
 .novelslist .content .image img{ width:67px; height:82px; border:solid 1px #DDDDDD; padding:1px; background-color:white;}
 .novelslist .content dl{ padding:10px 0px 0px 0px; float:right; width:219px;}
 .novelslist .content dl dt{ height:25px; line-height:25px; overflow:hidden; font-weight:bold;}
 .novelslist .content dl dd{ line-height:20px; height:60px; overflow:hidden;}
-.novelslist .content ul{ padding:10px 0px 0px 0px;}
+.novelslist .content ul{ padding:10px 0px 5px 0px;}
 .novelslist .content ul li{ color:#B3B3B3; height:30px; line-height:30px; font-size:12px; overflow:hidden; float:left; width:150px;padding-left: 5px;}
 .novelslist .content ul li a{ font-size:13px;}
 .novelslist .border{ border:0px;}
-.novelslist h2 {background-color: #F6F8FE; border-bottom: 1px solid #DDDDDD; font-size: 14px; font-weight: bold; height: 30px; line-height: 30px; overflow: hidden; padding: 0 0 0 10px;}
+.novelslist h2 {background-color: #ebf3f7; border-bottom: 1px solid #DDDDDD; font-size: 14px; font-weight: bold; height: 30px; line-height: 30px; overflow: hidden; padding: 0 0 0 10px;}
 .novelslist ul{ padding:10px;}
 .novelslist li{ border-bottom:solid 1px #DDDDDD; height:25px; line-height:25px; overflow:hidden;}
 .novelslist li span{ float:left; display:inline-block;}
@@ -97,7 +98,7 @@ table.grid td { background-color: #FFFFFF !important; border: 1px solid #C3DFEA;
 .novelslist li a{ color:#6F78A7;}
 
 
-.novelslist2{ margin: 15px auto; border:3px solid #A6D3E8; width:974px;background:#FEF9EF;}
+.novelslist2{ margin: 15px auto; border:3px solid #A6D3E8; width:974px;background:#FFF;}
 .novelslist2 h2 { margin:0px; background-color: #A6D3E8; border-bottom: 1px solid #DDDDDD; font-size: 14px; font-weight: bold; height: 30px; line-height: 30px; overflow: hidden; padding: 0 0 0 10px;}
 .novelslist2 ul{ padding:10px;}
 .novelslist2 li{ padding:5px 0px 0px 0px; border-bottom:solid 1px #DDDDDD; height:25px; line-height:25px; overflow:hidden;}
@@ -115,7 +116,7 @@ table.grid td { background-color: #FFFFFF !important; border: 1px solid #C3DFEA;
 .articlepage input{padding:2px 5px;border:1px solid #333;}
 .articlepage a:hover{color:#333;background:#f9f9f9;border:1px solid #333}
 #newscontent{ margin: auto;}
-#newscontent .l{ border:3px solid #88C6E5; float:left; width:695px;}
+#newscontent .l{ border:3px solid #88C6E5; background-color: #FFF; float:left; width:845px;}
 #newscontent .l ul{ padding:5px 10px;}
 #newscontent .l li{ line-height: 30px;height: 30px;overflow: hidden;border-bottom: 1px solid #ddd; }
 #newscontent .l li span{ float:left; display:inline-block;}
@@ -124,7 +125,7 @@ table.grid td { background-color: #FFFFFF !important; border: 1px solid #C3DFEA;
 #newscontent .l li .s3{ width:300px;}
 #newscontent .l li .s4{ color:#B3B3B3; width:90px;text-align:right;}
 #newscontent .l li .s5{ color:#B3B3B3; float:right; text-align:right;}
-#newscontent .r{ float:right; width:265px;border:3px solid #88C6E5; }
+#newscontent .r{ float:right; width:315px;border:3px solid #88C6E5; background-color: #FFF; }
 #newscontent .r ul{ padding:5px 10px;}
 #newscontent .r li{ border-bottom:solid 1px #DDDDDD; height:30px; line-height:30px; overflow:hidden;}
 #newscontent .r li span{ float:left; display:inline-block;}
@@ -134,24 +135,24 @@ table.grid td { background-color: #FFFFFF !important; border: 1px solid #C3DFEA;
 #newscontent .r li .s4{ width:50px; color:#B3B3B3;}
 #newscontent .r li .s5{ float:right; text-align:right;}
 #newscontent .r li a{ color:#6F78A7;}
-#newscontent h2{ margin:0px; overflow:hidden; padding:0px 0px 0px 15px; background-color:#A6D3E8; height:40px; line-height:40px; font-size:14px; font-weight:bold;}
-#firendlink{border:1px solid #DDD;line-height:22px;width:958px;margin:10px auto;padding:10px;}
+#newscontent h2{ margin:0px; overflow:hidden; padding:0px 0px 0px 15px; background-color:#ebf3f7; height:40px; line-height:40px; font-size:14px; font-weight:bold;}
+#firendlink{border:1px solid #DDD;background-color: #fff; line-height:22px;width:1158px;margin:10px auto;padding:10px;}
 #firendlink a{color:#548161;display:inline-block;margin:0 9px 0 0;}
 .novellist{ margin: 10px auto; width:968px;  padding:3px; }
-.novellist h2 {background-color: #F6F8FE; border-bottom: 1px solid #DDDDDD; font-size: 14px; font-weight: bold; height: 30px; line-height: 30px; overflow: hidden; padding: 0 0 0 10px;}
+.novellist h2 {background-color: #ebf3f7; border-bottom: 1px solid #DDDDDD; font-size: 14px; font-weight: bold; height: 30px; line-height: 30px; overflow: hidden; padding: 0 0 0 10px;}
 .novellist ul{ padding:10px;}
 .novellist li{float:left; color:#B3B3B3; padding:5px 0px 0px 0px; border-bottom:solid 1px #DDDDDD; height:25px; width:20%;  line-height:25px; overflow:hidden; display:inline-block; }
 .novellist li a:link { color:#6F78A7; TEXT-DECORATION: none;}
 .novellist li a:visited { COLOR: red; }
 
 .dahengfu{overflow:hidden; width:976px; margin:2px auto;}
-.box_con{border:2px solid #88C6E5; overflow:hidden;width:976px;margin:10px auto;}
-.con_top { border-bottom: #88C6E5 1px solid; text-align:left; padding: 0px 10px; line-height:40px; height:40px; background-color:#E1ECED;}
+.box_con{border:2px solid #88C6E5; background-color:#FFF; overflow:hidden;width:1176px;margin:10px auto;}
+.con_top { border-bottom: #88C6E5 1px solid; text-align:left; padding: 0px 10px; line-height:40px; height:40px; background-color:#ebf3f7;}
 .con_top #bdshare{float:right;line-height:20px;padding-left:10px;padding-right:10px;margin-top:2px;text-align:right;}
 .con_top .bdlikebutton{float: right;margin-top:8px;}
-#sidebar{float:left;width:140px;text-align:left;}
-#maininfo{float:right;width:800px;}
-#fmimg{background-color:#E1ECED;float:left;width:126px;margin:12px;padding:12px;position:relative;}
+#sidebar{float:left;min-width:140px;text-align:left;}
+#maininfo{float:right;width:1000px;}
+#fmimg{background-color:#ebf3f7;float:left;width:126px;margin:12px;padding:12px;position:relative;}
 #fmimg img{border:medium none;height:150px;width:120px;margin:3px;}
 
 #fmimg span{top:8px;right:8px;width:88px;height:88px;position:absolute;display:block;z-index:999;}
@@ -159,7 +160,7 @@ table.grid td { background-color: #FFFFFF !important; border: 1px solid #C3DFEA;
 #fmimg .b {background-position:0 -294px;} 
 
 
-#info{	padding:10px;margin:10px;font-size:15px;}
+#info{	padding:10px 0;margin:10px 0;}
 #info h1{font-family:黑体;font-size:28px;font-weight:700;overflow:hidden;margin:auto;padding:1px;}
 .booktitle h1{float: left;}
 .booktitle em{float: right;font-style: normal;}
@@ -167,9 +168,9 @@ table.grid td { background-color: #FFFFFF !important; border: 1px solid #C3DFEA;
 #intro{	width:96%;overflow:hidden;line-height:24px;border-top:1px dashed #88C6E5;padding:10px;font-size:14px;}
 #intro p{text-indent:2em; margin-top:10px;}
 #listtj{width:960px;  padding:5px; float:left;}
-#list{padding:2px;}
+#list{padding:3px;}
 #list dl{overflow:hidden;padding-bottom:1px;margin:auto;}
-#list dt{background:none repeat scroll 0 0 #C3DFEA;display:inline;float:left;font-size:14px;line-height:28px;overflow:hidden;text-align:center;vertical-align:middle;width:98%;margin:auto auto 5px;padding:5px 10px;}
+#list dt{background:#ebf3f7;display:inline;float:left;font-size:14px;line-height:28px;overflow:hidden;text-align:center;vertical-align:middle;width:100%;margin:auto auto 5px;padding:5px 10px;}
 #list dd{border-bottom:1px dashed #CCC;display:inline;float:left;height:32px;line-height:32px;margin-bottom:5px;overflow:hidden;text-align:left;text-indent:10px;vertical-align:middle;width:33%;}
 #list dd a:link{color:#444;}
 .con_top #page_set{ float:right; text-align:right; height:20px; line-height:20px; padding-right:5px; padding-top:10px;}
@@ -183,10 +184,10 @@ table.grid td { background-color: #FFFFFF !important; border: 1px solid #C3DFEA;
 .reader_mark1 { width:30px;height:90px;top: 50px; position: fixed; left: 5px; _margin-top:50px; _position:absolute;	_bottom:auto;	_top:expression(eval(document.documentElement.scrollTop)); }
 .reader_mark0 a{ width:30px;height:90px;display:block;background-position:0px -116px;}
 .reader_mark1 a{ width:30px;height:90px;display:block;background-position:-30px -116px;}
-.content_read{overflow:hidden;width:980px;margin:2px auto auto;}
+.content_read{overflow:hidden;width:1180px;margin:2px auto auto;}
 .bottem2{border-top:1px dashed #88C6E5;clear:both!important;text-align:center;width:900px;margin:auto 20px;padding:15px;}
 .bottem a,.bottem1 a,.bottem2 a{color:#085308;font-size:14px;margin-left:10px;margin-right:10px;}
-#footer,.footer{overflow:hidden;text-align:center;width:980px;margin:10px auto auto;}
+#footer,.footer{overflow:hidden;text-align:center;width:1180px;margin:10px auto auto;}
 .footer_link{border-bottom:2px solid #88C6E5;height:25px;line-height:25px;overflow:hidden;width:92%;margin:5px auto;}
 .footer_cont p{color:#B2B2B2;line-height:24px;width:88%;}
 
@@ -317,7 +318,7 @@ A.p14 { font-size: 14px; line-height: 22px; }
     width:100%;overflow: hidden;text-align: center;font: 12px 宋体; margin-top:5px;text-overflow: ellipsis;text-decoration: none;
 }
 
-#hotcontent .lll{ border:1px solid #C8D4E1; margin: 10px auto; padding:0;  float:left; width:978px; overflow:hidden;}
+#hotcontent .lll{ border:1px solid #88C6E5; margin: 10px auto; padding:0;  float:left; width:978px; overflow:hidden;}
 .item-cover{
 	float: left;
 	margin: 15px 14px 0 14px;
@@ -463,5 +464,5 @@ A.p14 { font-size: 14px; line-height: 22px; }
 	filter: alpha(opacity=80);
 }
 .dvcode{overflow:hidden; width:976px; margin:2px auto;}
-.authorinfo{border:1px solid #C8D4E1; margin: 10px auto; padding:0;  float:left; width:978px; overflow:hidden;}
+.authorinfo{border:1px solid #88C6E5; margin: 10px auto; padding:0;  float:left; width:978px; overflow:hidden;}
 .authorinfo p{padding: 10px;line-height: 180%;}
