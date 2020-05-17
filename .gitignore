@@ -1,1 +1,7 @@
 .DS_Store
+
+/Application/Runtime/Cache/*
+/Application/Runtime/Temp/*
+
+/Application/Common/Conf/database.php
+/Application/Common/Conf/install.lock
