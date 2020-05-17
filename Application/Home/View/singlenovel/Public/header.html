@@ -2,10 +2,10 @@
 	<div id="topbar">
 		<div class="hd">
 			<div class="share">
-				<em>分享"{$TDK.webname}"：</em><script>share();</script>
+				<em>分享{$TDK.webname}</em><script>share();</script>
 			</div>
 			<div class="trans">
-				<a id="translatelink" style="color:red;" href="javascript:translatePage();" title="点击[繁/简]切换">繁体版</a>
+				<a id="translatelink" href="javascript:translatePage();" title="点击[繁/简]切换">繁体版</a>
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -19,13 +19,13 @@
 <if condition="$comset.znsid neq ''">
 				<form action="http://zhannei.baidu.com/cse/search" method="get" target="_blank">
 					<input type="hidden" name="s" value="{$comset.znsid}">
-					<input type="text" name="q" id="searchkey" baidusug="2" placeholder="请您少字也别错字..." required="required" class="search-text" />
+					<input type="text" name="q" id="searchkey" baidusug="2" placeholder="小说书名/作者名" required="required" class="search-text" />
 					<input class="search-submit" type="submit" value="搜索" />
 				</form>
 <else />
 				<form action="{:U('/home/search')}" method="post" target="_blank">
 					<input type="hidden" name="action" value="search">
-					<input type="text" name="q" id="searchkey" baidusug="2" placeholder="请您少字也别错字..." required="required" class="search-text" />
+					<input type="text" name="q" id="searchkey" baidusug="2" placeholder="小说书名/作者名" required="required" class="search-text" />
 					<input class="search-submit" type="submit" value="搜索" />
 				</form>
 </if>

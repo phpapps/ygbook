@@ -1,13 +1,3 @@
-/*
-
-Theme Name: Novel
-Theme URI: http://ituibar.com/
-Description: This is my theme for more than one Novel site.
-Version: 1.0
-Author: Era
-Author URI: http://ituibar.com/
-
-*/
 
 /* reset.css */
 html {margin:0;padding:0;border:0;}
@@ -66,7 +56,7 @@ button[type="submit"]:hover { background: #444; }
 body {
 background:#f5f5f5;
 color: #333;
-font: 14px/1.65 Arial, Helvetica, sans-serif;
+font: 13px/1.65 Arial, Helvetica, sans-serif;
 }
 .clear {clear:both;}
 h1, h2, h3, h4, h5, h6,dt {
@@ -91,11 +81,13 @@ font-style: normal;
 min-height: 32px;
 *height:32px;
 line-height: 32px;
-border-bottom: 1px solid #2f885b;
 background: #14b394;
 color: #fff;
 overflow: hidden;
 padding: 0 10px;
+}
+#topbar a{
+	color: #fff;
 }
 #topbar .share {
 float:left;
@@ -110,6 +102,7 @@ float:left;
 height: 32px;
 line-height: 32px;
 overflow: hidden;
+padding-right: 10px;
 }
 .bdsharebuttonbox,.bdsharebuttonbox a{
 float:left;
