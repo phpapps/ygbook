@@ -185,7 +185,7 @@ function login() {
     document.writeln("<div class=\"ywtop\"><div class=\"ywtop_con\"><div class=\"ywtop_sethome\"><a href=\"/zhuomian.php\">将黄金书屋快捷键下载到桌面</a></div>");
     document.writeln("<div class=\"ywtop_addfavorite\"><a href=\"javascript:window.external.addFavorite(\'http://www.oscms.win\',\'免费小说阅读网_黄金书屋\')\">收藏黄金书屋</a></div>");
     document.writeln("<div class=\"ywtop_addtext\">手机阅读：https://m.oscms.win</div>");
-    document.write('<div class="nri"><a id="translatelink" style="color:red;" href="javascript:translatePage();" title="点击[繁/简]切换">繁体版</a></div></div></div>');
+    document.write('<div class="nri"><a id="translatelink" style="color:#FF8909;" href="javascript:translatePage();" title="点击[繁/简]切换">繁体版</a></div></div></div>');
 }
 
 function loadbooklist(t, id) {
@@ -221,17 +221,17 @@ function showsearch() {
 
 function read_panel() {
     showsearch();
-    document.writeln("<a href='https://woytu.com' target='_blank'><div class=\"userpanel\">&nbsp;<font color=\"red\">导航站<br>https://woytu.com</font></div></a>");
+    document.writeln("<a href='https://oscms.win' target='_blank'><div class=\"userpanel\" style=\"color:#FF8909;\">导航站<br>https://oscms.win</div></a>");
 }
 
 function list_panel() {
     showsearch();
-    document.writeln("<a href='https://woytu.com' target='_blank'><div class=\"userpanel\">&nbsp;<font color=\"red\">导航站<br>https://woytu.com</font></div></a>");
+    document.writeln("<a href='https://oscms.win' target='_blank'><div class=\"userpanel\" style=\"color:#FF8909;\">导航站<br>https://oscms.win</div></a>");
 }
 
 function panel() {
     showsearch();
-    document.writeln("<a href='https://woytu.com' target='_blank'><div class=\"userpanel\">&nbsp;<font color=\"red\">导航站<br>https://woytu.com</font></div></a>");
+    document.writeln("<a href='https://oscms.win' target='_blank'><div class=\"userpanel\" style=\"color:#FF8909;\">导航站<br>https://oscms.win</div></a>");
 }
 
 function mark() {
