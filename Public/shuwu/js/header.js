@@ -204,7 +204,7 @@ function textselect() {
 
 function footer() {
     document.writeln("<p>本站所有小说均由根据搜索引擎转码而来，只为让更多读者欣赏，本站不保存小说内容及数据，仅作宣传展示。</p>");
-    document.writeln("<p>Copyright &copy; 2010-" + new Date().getFullYear() + " 八进四 All Rights Reserved. Powered by YGBOOK.</p>");
+    document.writeln("<p>Copyright &copy; 2010-" + new Date().getFullYear() + " 黄金书屋 All Rights Reserved. Powered by OSCMS.</p>");
     // document.writeln("<p>ICP备案号</p>");
     window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "24" }, "share": {} };
     with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = '/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
