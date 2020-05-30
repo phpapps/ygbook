@@ -27,7 +27,7 @@
 	<script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
 	<script type="text/javascript" src="__PUBLIC__/{$theme}/js/header.js?v{$version}"></script>
 	<script type="text/javascript" src="__PUBLIC__/layer/layer.js"></script>
-	<script>var bookid = '{$TDK.oid}', hash = '{$TDK.hash}', index_rule = '{:C('ID_RULE')}', cindex_rule = '{:C('CID_RULE')}', znsid = '{$comset.znsid}';</script>
+	<script>var bookid = '{$TDK.oid}', hash = '{$TDK.hash}', index_rule = '{:C('ID_RULE')}', cindex_rule = '{:C('CID_RULE')}', znsid = '{$comset.znsid}';</script>{$statcode}
 </head>
 <body>
 <div id="wrapper">
@@ -58,7 +58,7 @@
 		</div>
 		<div id="sidebar">
 			<div id="fmimg">
-				<img alt="{$articledb.title}" src="{$articledb.thumb}" width="120" height="150" onerror="this.src='__PUBLIC__/images/nocover.jpg'" />
+				<img alt="{$articledb.title}" src="{$articledb.thumb}" width="110" onerror="this.src='__PUBLIC__/images/nocover.jpg'" />
 				<if condition="$articledb['full'] eq 0"><span class="b"></span><else /><span class="a"></span></if>
 			</div>
 		</div>
@@ -85,7 +85,7 @@
 		<div class="footer_link"></div>
 		<div class="footer_cont">
 			<p>《<a href="{$TDK.canonicalurl}" title="{$TDK.webname}-{$articledb.title}">{$articledb.title}</a>》情节跌宕起伏、扣人心弦，是一本情节与文笔俱佳的{$articledb.catename}，{$TDK.webname}转载收集<a href="{$TDK.canonicalurl}" title="{$articledb.title}最新章节">{$articledb.title}最新章节</a>、无弹窗阅读。</p>
-			<script type="text/javascript">footer();</script>{$statcode}
+			<script type="text/javascript">footer();</script>
 		</div>
 	</div>
 </div>

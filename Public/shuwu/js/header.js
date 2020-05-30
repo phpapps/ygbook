@@ -213,9 +213,9 @@ function footer() {
 
 function showsearch() {
     if (znsid) {
-        document.writeln("<div class=\"header_search\"><form name=\"form\" method=\"get\" action=\"http://zhannei.baidu.com/cse/search\" id=\"sform\" target=\"_blank\"><input type=\"hidden\" name=\"s\" value=\"" + znsid + "\"><input type=\"text\" placeholder=\"可搜书名，请您少字也别输错字\" value=\"\" name=\"q\" class=\"search\" id=\"wd\" baiduSug=\"2\" /><button id=\"sss\" type=\"submit\"> 站内搜索 </button></form></div>");
+        document.writeln("<div class=\"header_search\"><form name=\"form\" method=\"get\" action=\"http://zhannei.baidu.com/cse/search\" id=\"sform\" target=\"_blank\"><input type=\"hidden\" name=\"s\" value=\"" + znsid + "\"><input type=\"text\" placeholder=\"请输入小说名或作者名\" value=\"\" name=\"q\" class=\"search\" id=\"wd\" baiduSug=\"2\" /><button id=\"sss\" type=\"submit\"> 站内搜索 </button></form></div>");
     } else {
-        document.writeln("<div class=\"header_search\"><form name=\"form\" method=\"post\" action=\"/home/search\" id=\"sform\" target=\"_blank\"><input type=\"hidden\" name=\"action\" value=\"search\"><input type=\"text\" placeholder=\"可搜书名，请您少字也别输错字\" value=\"\" name=\"q\" class=\"search\" id=\"wd\" baiduSug=\"2\" /><button id=\"sss\" type=\"submit\"> 搜 索 </button></form></div>");
+        document.writeln("<div class=\"header_search\"><form name=\"form\" method=\"post\" action=\"/home/search\" id=\"sform\" target=\"_blank\"><input type=\"hidden\" name=\"action\" value=\"search\"><input type=\"text\" placeholder=\"请输入小说名或作者名\" value=\"\" name=\"q\" class=\"search\" id=\"wd\" baiduSug=\"2\" /><button id=\"sss\" type=\"submit\"> 搜 索 </button></form></div>");
     }
 }
 

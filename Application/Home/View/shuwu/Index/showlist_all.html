@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="__PUBLIC__/{$theme}/css/style.css?v{$version}" />
 	<script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
 	<script type="text/javascript" src="__PUBLIC__/{$theme}/js/header.js?v{$version}"></script>
-	<script>var znsid = '{$comset.znsid}';</script>
+	<script>var znsid = '{$comset.znsid}';</script>{$statcode}
 </head>
 <body>
 <div id="wrapper">
@@ -24,7 +24,7 @@
 				<foreach name="hotlist" item="v">
 				<div class="item">
 					<div class="image">
-						<a href="{$v['rewriteurl']}" title="{$v['title']}"><img {$comset.src}="{$v['thumb']}" alt="{$v['title']}" width="120" height="150" onerror="this.src='__PUBLIC__/images/nocover.jpg'" /></a>
+						<a href="{$v['rewriteurl']}" title="{$v['title']}"><img {$comset.src}="{$v['thumb']}" alt="{$v['title']}" width="110" onerror="this.src='__PUBLIC__/images/nocover.jpg'" /></a>
 					</div>
 					<dl>
 						<dt><span><a href="{:reurl('author', $v)}" target="_blank" title="{$v.author}">{$v.author}</a></span><a href="{$v['rewriteurl']}">{$v['title']}</a></dt>

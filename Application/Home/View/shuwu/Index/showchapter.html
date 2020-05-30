@@ -15,7 +15,7 @@
 	<script type="text/javascript" src="__PUBLIC__/{$theme}/js/header.js?v{$version}"></script>
 	<script type="text/javascript" src="__PUBLIC__/layer/layer.js"></script>
 	<script type="text/javascript" src="__PUBLIC__/{$theme}/js/bookcase.js?v{$version}"></script>
-	<script>var znsid = '{$comset.znsid}';</script>
+	<script>var znsid = '{$comset.znsid}';</script>{$statcode}
 <style>
 	#source{display: none;}
 	html, #source{width: 100%; height: 100%;}
@@ -54,7 +54,7 @@
 				</if>
 			</div>
 			{$advcode.chapter_2.code}
-			<script>bdshare();</script>
+			<div class="bottem2"><script>bdshare();</script></div>
 			<div class="bottem2">
 				<if condition="$mychapterdb.prev neq null"><a href="{:reurl('chapter', $mychapterdb['prev'], $maindomain)}" rel="next"><present name="mychapterdb.prev.sub">上一页<else />上一章</present></a><else /><a href="javascript:alert('已经是第一章了');">上一章</a></if> &larr; <a href="{$TDK.articleurl}" rel="index">章节列表</a> &rarr; <if condition="$mychapterdb.next neq null"><a href="{:reurl('chapter', $mychapterdb['next'], $maindomain)}" rel="next"><present name="mychapterdb.next.sub">下一页<else />下一章</present></a><else /><a href="javascript:alert('已经是最后一章了');">下一章</a></if> 转码阅读中，不进行内容存储和复制
 			</div>
@@ -64,7 +64,7 @@
 	<div class="footer">
 		<div class="footer_link">新书推荐：<foreach name="dataarea_list.pc_chapter_recommend" item="v"><a href="{$v.rewriteurl}">{$v.title}</a>　</foreach></div>
 		<div class="footer_cont">
-			<script>footer();</script>{$statcode}
+			<script>footer();</script>
 		</div>
 	</div>
 </div>
