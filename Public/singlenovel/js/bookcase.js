@@ -132,7 +132,7 @@ function loadbooker(){
 			}
 		}
 	}else{
-	 	bookhtml+='<div style="height:100px;line-height:100px; text-align:center">还木有任何书籍( ˙﹏˙ )</div>';
+	 	bookhtml+='<div style="height:100px;line-height:100px; text-align:center">无阅读任何书籍</div>';
 	}
 	$(".read_book").html(bookhtml);
 }
@@ -149,7 +149,7 @@ function fordele(){
 		}
 	}
 	else{
-		bookhtml+='<div style="height:100px;line-height:100px; text-align:center">还木有任何书籍( ˙﹏˙ )</div>';
+		bookhtml+='<div style="height:100px;line-height:100px; text-align:center">无阅读任何书籍</div>';
 	}
 	$(".read_book").html(bookhtml);
 }

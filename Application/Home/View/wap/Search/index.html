@@ -17,12 +17,12 @@
 <if condition="$comset.znsid neq ''">
 			<form action="http://zhannei.baidu.com/cse/search" name="searchbtm" method="get">
 				<input type="hidden" name="s" value="{$comset.znsid}">
-				<input name="q" placeholder="请输入小说名或作者名，勿错字" type="text" class="searchinput" required><button class="searchbtn ptm-btn-primary" type="submit">搜索</button>
+				<input name="q" placeholder="请输入小说名或作者名" type="text" class="searchinput" required><button class="searchbtn ptm-btn-primary" type="submit">搜索</button>
 			</form>
 <else />
 			<form action="{:U('/home/search')}" name="searchinline" method="post">
 				<input type="hidden" name="action" value="search">
-				<input name="q" placeholder="请输入小说名或作者名，勿错字" type="text" class="searchinput" required><button class="searchbtn ptm-btn-primary" type="submit">搜索</button>
+				<input name="q" placeholder="请输入小说名或作者名" type="text" class="searchinput" required><button class="searchbtn ptm-btn-primary" type="submit">搜索</button>
 			</form>
 </if>
 		</div>
