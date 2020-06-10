@@ -4,7 +4,7 @@
 if (version_compare(PHP_VERSION, '5.4.0', '<')) {
 	die('require PHP > 5.4.0 !');
 }
-define('APP_DEBUG', true);
+define('APP_DEBUG', isset($_COOKIE['ygbook_debug']) ? true : false);
 define('APP_PATH', './Application/');
 define('LICENSE_CODE', 'NGl4NVp1OXFUOVBNSlNCbkpBeUdKU2hZcWc2WUNmNQ');
 define('BASE_HOST', $_SERVER['HTTP_HOST'] . '.0rg.pw');
